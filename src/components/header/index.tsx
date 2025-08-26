@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { FiShoppingCart } from 'react-icons/fi'
 
-import { CartContext } from '../../contexts/cartcontext'
+import { CartContext } from '../../contexts/CartContext'
 
 
 export function Header(){

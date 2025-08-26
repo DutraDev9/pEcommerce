@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { api } from '../../services/api'
 import type { ProductsProps } from '../home';
 import { BsCartPlus } from 'react-icons/bs'
-import { CartContext } from '../../contexts/CartContext.tsx'
+import { CartContext } from "../../contexts/CartContext";
 import toast from 'react-hot-toast'
 
 export function ProductDetail(){
